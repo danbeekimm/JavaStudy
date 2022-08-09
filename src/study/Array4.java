@@ -30,6 +30,4 @@ public class Array4 {
 			System.out.printf("loto[%d]=%d%n",i,loto[i]);
 		}
 	}
-	
-
 }
