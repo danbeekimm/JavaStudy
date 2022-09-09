@@ -5,7 +5,9 @@ public class StringEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "ABCDE";
+		
 		char ch = str.charAt(0);
+		
 		String str2 = str.substring(1,4);
 		//to는생략이므로 마지막숫자생략
 		
@@ -13,6 +15,8 @@ public class StringEx {
 		//to 지정안했으므로 인덱스 1부터 ~ 출력
 		
 		String str4 = str.substring(1, str.length());
+		// 위와 같음. 길이는 5라도 4까지 출력임.
+		
 		
 		
 		System.out.println(ch); //A 반환
